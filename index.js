@@ -81,7 +81,7 @@ function findDestinations(maxDistance, budget) {
        return  availableDestinations
     }
     else{
-      console.log("No destinations available under your budget and distance")
+      return "No destinations available under your budget and distance"
     }
    
 }
